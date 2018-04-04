@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace BookCatalog.Droid
 {
-	[Activity (Label = "BookCatalog.Android", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "@string/app_name", MainLauncher = false, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
 		int count = 1;
